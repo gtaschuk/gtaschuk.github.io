@@ -4,6 +4,13 @@ title: Hi, I'm Greg Taschuk and this is my website
 permalink: /
 ---
 
+<img src="/taschuk-headshot.jpg" width="200" height="*" style="border-radius: 100px"/>
+<p>
+Software Engineer, 
+Blockchain Believer,
+Homebrewer,
+Autodidact
+</p>
 
 <h2>Projects I have worked on</h2>
 <h3><a href='http://truset.com'>TruSet.com</a></h3>
