@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hi, my name is Greg Taschuk and this is my website
+title: Hi, I'm Greg Taschuk and this is my website
 permalink: /
 ---
 
