@@ -4,7 +4,6 @@ title: Hi, my name is Greg Taschuk and this is my website
 permalink: /
 ---
 
-I put together this website because I realized that despite building websites servicing millions of visitors, I had no web presence of my own.  I hope to use this to consolidate the work I have done, the lessons I have learned, and the sentiments that guide the things I want to build - both for the reader, and for myself.
 
 <h2>Projects I have worked on</h2>
 <h3><a href='http://truset.com'>TruSet.com</a></h3>
