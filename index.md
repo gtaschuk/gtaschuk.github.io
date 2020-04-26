@@ -1,56 +1,14 @@
 ---
 layout: page
-title: Hi, I'm Greg Taschuk and this is my website
-permalink: /
+title: Greg Taschuk
 ---
 
-<img src="/taschuk-headshot.jpg" width="200" height="*" style="border-radius: 100px"/>
+<img src="/assets/taschuk-headshot.jpg" width="200" height="*" style="border-radius: 100px"/>
 <p>
+<i>
 Software Engineer, 
 Blockchain Believer,
 Homebrewer,
 Autodidact
+</i>
 </p>
-
-<h2>Projects I have worked on</h2>
-<h3><a href='http://truset.com'>TruSet.com</a></h3>
-TruSet is a platform for publishing and validating data on the Ethereum blockchain.  It's first use case is reference data on corporate bonds (interest rates, maturity dates etc) but the smart contracts are more widely applicable to any structured data with revisions, and the need for voting.
-<ul>
-<li>Solidity</li>
-<li>React/Redux</li>
-<li>Web3</li>
-<li>Go</li>
-</ul>
-
-
-<h3><a href='http://sublingual.io'>Sublingual.io</a></h3>
-Sublingual is a personal project of mine.  It is a tool for language learning, which generates custom subtitles for someone learning a language, so that they can learn new vocabulary in context, while watching a film in another language. It is used by language learners around the world
-<ul>
-<li>Flask (python)</li>
-<li>Celery</li>
-<li>Postgres</li>
-</ul>
-
-<h3><a href="https://stellaservice.com/stella-connect/">StellaService</a></h3>
-I work for StellaService on the Connect product.  It is a tool to incentivize customer service agents and get feedback from customers on customer service agents.
-<ul>
-<li>Rails 5 (ruby)</li>
-<li>Kubernetes</li>
-<li>EmberJS</li>
-<li>Postgres</li>
-</ul>
-
-<h3><a href="https://jobsuitors.com">Jobsuitors.com</a></h3>
-As the CTO of a three person startup, I drove development of a platform consisting of a recommendation engine and a user-facing web app for job seekers and company recruitors
-<ul>
-<li>Rails 4 (ruby)</li>
-<li>MongoDB</li>
-<li>Resque</li>
-</ul>
-
-<h2>Posts</h2>
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
