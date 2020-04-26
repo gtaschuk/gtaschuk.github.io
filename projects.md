@@ -31,7 +31,7 @@ Status: Unmaintained
 </ul>
 
 <h3><a href="https://stellaservice.com/stella-connect/">StellaConnect</a></h3>
-I work for StellaService on the Connect product.  It is a tool to incentivize customer service agents and get feedback from customers on customer service agents.
+I worked for StellaService on the Connect product - a tool to incentivize customer service agents and get feedback from customers on customer service agents
 <ul>
 <li>Rails 5 (ruby)</li>
 <li>Kubernetes</li>
