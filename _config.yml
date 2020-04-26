@@ -19,6 +19,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "gtaschuk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: gtaschuk 
+twitter_username: gregtaschuk
+# instagram_username: gtschk
+linkedin_username: taschuk
 google_analytics: UA-89401352-1
 
 # Build settings
@@ -29,13 +32,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-
-minima:
-  social_links:
-    twitter: gregtaschuk
-    github: gtaschuk
-    instagram: gtschk
-    linkedin: taschuk
 
 header_pages:
   - projects.md

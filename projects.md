@@ -4,8 +4,10 @@ title: Projects
 permalink: /projects
 ---
 
-<h3><a href='http://truset.com'>TruSet.com</a></h3>
-TruSet is a platform for publishing and validating data on the Ethereum blockchain.  It's first use case is reference data on corporate bonds (interest rates, maturity dates etc) but the smart contracts are more widely applicable to any structured data with revisions, and the need for voting.
+<h3><a href='http://truset.com'>TruSet.com</a> @ <a href='http://consensys.net'>Consensys</a></h3>
+<p>
+TruSet is a platform for publishing and validating data on the Ethereum blockchain by incentivizing community consensus.  Open sourced libraries are <a href='https://truset.github.io'>here</a> including a role based access control and a system for commit reveal voting
+<p>
 <ul>
 <li>Solidity</li>
 <li>React/Redux</li>
@@ -15,14 +17,20 @@ TruSet is a platform for publishing and validating data on the Ethereum blockcha
 
 
 <h3><a href='http://sublingual.io'>Sublingual.io</a></h3>
-Sublingual is a personal project of mine.  It is a tool for language learning, which generates custom subtitles for someone learning a language, so that they can learn new vocabulary in context, while watching a film in another language. It is used by language learners around the world
+<p>
+Sublingual is a tool for language learning, which generates custom subtitles for someone learning a language, so that they can learn new vocabulary in context, while watching a film in another language
+This provides an immersive experience to track the mastery of the language.
+</p>
+<p>
+Status: Unmaintained
+</p>
 <ul>
 <li>Flask (python)</li>
 <li>Celery</li>
 <li>Postgres</li>
 </ul>
 
-<h3><a href="https://stellaservice.com/stella-connect/">StellaService</a></h3>
+<h3><a href="https://stellaservice.com/stella-connect/">StellaConnect</a></h3>
 I work for StellaService on the Connect product.  It is a tool to incentivize customer service agents and get feedback from customers on customer service agents.
 <ul>
 <li>Rails 5 (ruby)</li>
@@ -32,11 +40,16 @@ I work for StellaService on the Connect product.  It is a tool to incentivize cu
 </ul>
 
 <h3><a href="https://jobsuitors.com">Jobsuitors.com</a></h3>
-As the CTO of a three person startup, I drove development of a platform consisting of a recommendation engine and a user-facing web app for job seekers and company recruitors
+<p>
+I drove development of a job recommendation engine and a user-facing web app for job seekers and company recruitors
+</p>
 <ul>
 <li>Rails 4 (ruby)</li>
 <li>MongoDB</li>
 <li>Resque</li>
 </ul>
+<p>
+Status: Unmaintained
+</p>
 
 
