@@ -9,3 +9,5 @@ Digital interests: collaborative systems and blockchain technology
 <p>
 Analog interests: homebrewing, traveling, reading and fitness
 </p>
+
+<strong>This website and it's author are a work in progress</strong>
