@@ -12,17 +12,16 @@ When I turned on English subtitles, I found it too tempting to read the english 
 
 So I wrote a script, to show me definitions for words that I did not know yet in the subtitles track.  As I learned these words, I added to the list, so that fewer and fewer words appeared in the track.
 
-In English, and many other languages, 1000 words roughly equates to 95% of words used in common speech.  This amounted to roughly as many words as I had learned in Duolingo - enough speech so that the new-vocabulary in the subtitles wouldn't be incredibly intrusive, yet there would be enough words to continue learning.
+In many languages, including english, 1000 words roughly equates to 95% of words used in common speech.  This amounted to roughly as many words as I had learned in Duolingo - enough speech so that the new-vocabulary in the subtitles wouldn't be incredibly intrusive, yet there would be enough words to continue learning.
 
-Language learning became a matter of watching movies in foreign languages, and alt-tabbing to a list of words that I knew to add words - much better than going through flashcards, or pouring over grammar charts.
+When I'm watching movies in foreign languages, I just alt-tabbing to a list of words that I knew to add words.
 
 [Sublingual.io](http://sublingual.io)
 
-Coming soon!
 <ul>
 <li>User accounts where you can keep track of words learned</li>
 <li>Export subtitles to dfxp format - useful for netflix</li>
 <li>Better parallelization of translation api usage, for faster generation</li>
 </ul>
 
-Let me know your feedback!  I hope it helps people watch movies in other languages, and in doing so gives them the ability to talk to more people!
+Let me know your feedback!
