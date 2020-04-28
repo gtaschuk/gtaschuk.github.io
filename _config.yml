@@ -38,3 +38,8 @@ header_pages:
   - blog.md
 
 show_excerpts: true
+
+collections:
+  projects:
+    output: true
+    permalink: '/:collection/:path'
