@@ -3,6 +3,7 @@ layout: post
 title: Sublingual
 ---
 <h3><a href='http://sublingual.io'>Sublingual.io</a></h3>
+<img src="./images/sublingual.png" width="200" height="*"/>
 <p>
 Sublingual is a tool for language learning, which generates custom subtitles for someone learning a language, so that they can learn new vocabulary in context, while watching a film in another language
 This provides an immersive experience to track the mastery of the language.
