@@ -9,7 +9,7 @@ layout: default
   height: 100%;
   left:0px;
   top:0px;
-  background-color: #dcdcec;
+  background-color: #dcdcdc;
   z-index:-100;
   background-image: url("");
   background-repeat: no-repeat;
