@@ -36,6 +36,7 @@ exclude:
 header_pages:
   - projects.md
   - blog.md
+  - resume.html
 
 show_excerpts: true
 

@@ -1,0 +1,826 @@
+---
+layout: null
+title: Resume
+permalink: /resume
+---
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+        <title>Greg Taschuk</title>
+        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700'
+        rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600'
+        rel='stylesheet' type='text/css'>
+        <style>
+            body, html {
+              padding-top:2.5em;
+              margin:0;
+              background-color:#fafafa;
+            }
+            
+            .note {
+              display:block;
+              position: absolute;
+              top:10px;
+              left:10px;
+            
+              font-family: "Open Sans";
+              font-size: 0.6em;
+            }
+            
+            .new {
+              background-color: #81C784;
+            
+              border: 1px solid #757575;
+              padding: 1px;
+              border-radius: 4px;
+            
+            }
+            
+            /* Header */
+            
+            header {
+              width:100%;
+              vertical-align: middle;
+              text-align: center;
+             
+            }
+            
+            .header-content {
+              display: inline-block;
+            }
+            
+            .pic {
+              margin: 0 auto;
+              margin-top:-2.5em;
+              
+              border-radius:10em;
+              height:4em;
+              width:4em;
+              
+              border: 2px solid #e0e0e0;
+              transition : all 0.5s linear;
+              
+            }
+            
+            @-webkit-keyframes wiggle {
+              0%   {
+                transform: rotate(0deg);
+              }
+              25%  {
+                transform: rotate(-30deg);
+              }
+              50%  {
+                transform: rotate(15deg);
+              }
+              100% {
+                transform: rotate(0deg);
+              }
+            }
+            
+            .pic:hover {
+              /*Webkit fix*/
+              -webkit-transform: translateZ(0);
+              
+              cursor:pointer;
+              
+              -webkit-animation: wiggle 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+            }
+            
+            .header-text {
+              margin-top:0.5em;
+              margin-left:1em;
+            }
+            
+            header p {
+              text-align:center;
+              font-family: "Merriweather";
+              
+              margin:0;
+              
+              color: #212121;
+            }
+            
+            .first-name {
+               font-size: 1.05em;
+            }
+            
+            .subtitle {
+              font-family: "Merriweather";
+              padding-top:.3em;
+              font-size:0.55em;
+              font-weight:500;
+              color: #424242;
+            }
+            
+            /* Information */
+            
+            .paper {
+              margin: 0 auto;
+              margin-bottom:1em;
+              
+              background-color:white;
+              width:60%;
+              
+              padding:0.5em 0 0.5em 0;
+              
+              border-top: 1px solid #e0e0e0;
+              border-left: 1px solid #e0e0e0;
+              border-right: 1px solid #e0e0e0;
+              border-bottom: 3px solid #e0e0e0;
+              border-radius:3px;
+            }
+            
+            @media(max-width:992px) {
+              .paper {
+                width:80%;
+              }
+            }
+            
+            /* Content Part */
+            
+            .content-wrapper {
+              padding-right:7.25%;
+            }
+            
+            .content {
+              display:table;
+              width:100%;
+              
+              padding-top:1.5em;
+              
+              /*border-top: 1px solid #eeeeee;*/
+            }
+            
+            .content:last-child {
+              margin-bottom: 2em;
+            }
+            
+            body > div > article > div > section:last-child {
+              padding-bottom:1.5em;
+            }
+            
+            .row {
+                display:table-row;
+            }
+            .row div {
+                display:table-cell;
+            }
+            
+            .content-cat {
+              font-family: "Merriweather";
+              font-variant:small-caps;
+              font-weight:300;
+              letter-spacing: 1px;
+              
+              color: #212121;
+              
+              font-size:0.975em;
+              
+              text-align:center;
+              vertical-align:middle;
+            
+              padding-left:6.66%;
+              width:30%;
+            }
+            
+            .content-cat p {
+              font-size:0.55em;
+              font-weight:600;
+              
+              margin-bottom:0;
+            }
+            
+            .content-text {
+              border-left:1px solid #e0e0e0;
+              transition: border 0.66s ease-in;
+            }
+            
+            .big-text {
+              vertical-align:top;
+            }
+            
+            .content-text ul {
+              padding:0;
+              margin:0;
+              margin-top:0.15em;
+              
+              width:85%;
+              margin-left:1.5em;
+            }
+            
+            .content-text ul:last-child {
+              margin-bottom:0.5em;
+            }
+            
+            .content-text ul li {
+              font-family: "Open Sans";
+              font-size:0.7em;
+              
+              display:inline-block;
+              
+            }
+            
+            .content-text ul li:first-child {
+              width:35%;
+              
+              color: #424242;
+              
+              font-weight:600;
+            }
+            
+            .content-text ul li a, div.content-text.work-listing.education-listing > p > strong > a {
+              text-decoration: none;
+              color: #0277bd;
+            }
+            
+            .content-text ul li a:hover {
+              color:#4fc3f7;
+            }
+            
+            .work-listing p {
+              font-family: "Open Sans";
+              font-size:0.7em;
+              
+              color: #424242;
+              
+              margin-left:2em;
+              margin-top:0.45em;
+              margin-bottom: 0.45em;
+            }
+            
+            div.content-text.work-listing.education-listing > p:nth-child(2) {
+              margin-top:0.25em;
+            }
+            
+            .work-listing .highlight {
+              font-family: "Open Sans";
+              font-size:0.7em;
+              font-weight:400;
+              
+              color: #424242;
+              
+              margin-left:3.25em;
+              padding-left:0.5em;
+              
+              border-left:1px solid #e0e0e0;
+              
+            }
+            
+            .education-listing > .heading {
+              font-weight:600;
+              
+              margin-top:0.75em;
+              margin-left:2em;
+            }
+            
+            .education-listing > .highlight {
+              margin-left:3.25em;
+            }
+            
+            .highlight {
+              transition: border .33s ease-in;
+            }
+            
+            .profiles-listing ul li, .profiles-listing ul li:first-child {
+              width:32%;
+              font-weight: normal;
+            }
+            
+            .work-content, .education-content {
+              padding-top: .75em;
+            }
+            
+            section.content.education-content > div > div.content-cat {
+              vertical-align: top;
+            }
+            
+            div.content-text.skills-listing > p {
+              font-family: "Open Sans";
+              font-size:0.7em;
+              font-weight:400;
+            
+              margin-left: 2em;
+              margin-top: 0.45em;
+              margin-bottom: 0.45em;
+            }
+            
+            div.content-text.skills-listing > p > {
+              color:#212121;
+            }
+            
+            @media screen and (max-width: 600px) {
+              body, html {
+                padding-top: 30px;
+              }
+            
+              .paper {
+                width:95%;
+              }
+            
+              .row div {
+                display: block;
+              }
+            
+              .content-cat {
+                width: 100%;
+              }
+            
+              .content-text ul li {
+                width: 100%;
+              }
+            
+              .content-text ul li:first-child {
+                width: 100%;
+              }
+              
+              .education-listing > .highlight {
+                margin-left: 30px;
+              }
+            }
+        </style>
+        <style media="print">
+            body, html {
+              background-color: white;
+              padding-top: 1.5em;
+            }
+            
+            .paper {
+              width:100%;
+              border: 0;
+            
+              padding-top: 0;
+            }
+            
+            header p {
+              font-size: 1.3em;
+            }
+            
+            .subtitle {
+              font-size: 0.7em;
+            }
+            
+            .header-pic {
+              float:left;
+            }
+            
+            .profiles {
+              display:none;
+            }
+            
+            .content {
+              page-break-inside:avoid; 
+              page-break-after:auto;
+            }
+            
+            .header-text {
+              float:left;
+              margin-top: -1.6em;
+            }
+            
+            .content-wrapper > .content:first-child {
+              padding-top: 2em;
+            }
+            
+            .content:last-child {
+              padding-bottom: 0;
+            }
+            
+            .content-cat {
+              width:33%;
+              color:black;
+              text-align: left;
+            }
+            
+            .content-cat p {
+              font-size:0.6em;
+              font-weight: 600;
+            }
+            
+            header p, .content-text, .work-listing p, .content-text ul li:first-child, .work-listing .highlight, .content-text.skills-listing > ul > li > .highlight {
+              color:black;
+            }
+            
+            .content-text.skills-listing > ul > li span, .subtitle {
+              color:#212121;
+            }
+            
+            .content-text ul:last-child {
+              margin-bottom: 0.25em;
+            }
+            
+            .content-text ul li:first-child {
+              width:50%;
+            }
+            
+            .profiles-listing ul li:first-child {
+              width:32%;
+            }
+            
+            div.content-text.skills-listing > ul > li {
+              width:33%;
+            }
+            
+            .work-listing p {
+              margin-bottom: 0.1em;
+            }
+            
+            div.content-text.skills-listing > ul > li > p {
+              margin-top: 0.4em;
+              margin-bottom: 0.5em;
+            }
+            
+            div.content-text.skills-listing > ul > li {
+              padding-left: 1.5em;
+            }
+            
+            div.content-text.skills-listing > ul > li:first-child {
+              padding-left: 2em;
+            }
+            
+            .note {
+              display:none;
+            }
+            
+            .content-text:hover {
+              border-left:1px solid #eeeeee;
+            }
+            
+            .content-text ul li a:hover {
+              color:#4fc3f7;
+            }
+            
+            .highlight:hover, .content-text.skills-listing > ul > li > .highlight:hover {
+              border-left:1px solid #eeeeee;
+            }
+            
+            .big-text {
+              padding-top: 0;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="resume-wrapper">
+            <article class="paper">
+                <header>
+                    <div class="header-content">
+                        <div class="header-text">
+                            <p>Greg Taschuk</p>
+                            <p class="subtitle">Software Engineer</p>
+                        </div>
+                    </div>
+                </header>
+                <div class="content-wrapper">
+                    <!-- CONTACT -->
+                    <section class="content">
+                        <div class="row">
+                            <div class="content-cat">Contact</div>
+                            <div class="content-text">
+                                <ul>
+                                    <li>Website</li>
+                                    <li>http://gregtaschuk.com</li>
+                                </ul>
+                                <ul>
+                                    <li>Contact</li>
+                                    <li>find me on linkedin or twitter</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- LOCATION -->
+                    <section class="content">
+                        <div class="row">
+                            <div class="content-cat">Location</div>
+                            <div class="content-text">
+                                <ul>
+                                    <li>Region</li>
+                                    <li>Seattle, Washington</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content">
+                        <div class="row">
+                            <div class="content-cat big-text">Work Experience
+                                <p>December 2019 till February 2020</p>
+                            </div>
+                            <div class="content-text work-listing education-listing">
+                                <p style="margin-top:2.4em;"> <strong>Software Engineer</strong>
+at <strong><a href="http://consensys.net">Consensys Solutions, NYC, NY:</a></strong>
+
+                                </p>
+                                <p>Delivered a oracle solution to a large financial rating agency</p>
+                                <p class="highlight">Built out a project architecture for an oracle solution that included
+                                    a rating framework, and oracle smart contracts for digital assets</p>
+                                <p
+                                class="highlight">Was the main point of developer contact between the partner&#x27;s developer
+                                    team, and ours</p>
+                                    <p class="highlight">Leveraged the TruSet system as the data backend for the solution to quickly
+                                        build a MVP</p>
+                                    <p class="highlight">Deployed the system on kubernetes</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content work-content">
+                        <div class="row">
+                            <div class="content-cat big-text">
+                                <p>June 2017 till February 2020</p>
+                            </div>
+                            <div class="content-text work-listing education-listing">
+                                <p> <strong>Tech Lead</strong>
+at <strong><a href="http://truset.com">TruSet (Consensys), NYC, NY:</a></strong>
+
+                                </p>
+                                <p>Led development of a decentralized application that incentivizes communities
+                                    to publish and validate business-critical reference data</p>
+                                <p class="highlight">Forecasting delivery, managing technical hiring, and leading agile processes
+                                    such as retrospectives</p>
+                                <p class="highlight">Built a family of ethereum smart contracts that run on the Ethereum blockchain,
+                                    and led development of a React/Redux client and several complementary golang
+                                    apis</p>
+                                <p class="highlight">Did all the devops work to deploy smart contracts to multiple ethereum
+                                    blockchains and deploy other services to heroku with Continuous Integration</p>
+                                <p
+                                class="highlight">Sourced and closed a partnership with Imbrex to collect Real Estate data</p>
+                                    <p
+                                    class="highlight">Led user testing sessions to gather feedback and product feature requirements
+                                        and a support system with ZenDesk</p>
+                                        <p class="highlight">Published open-source libraries for role based access control, secret
+                                            voting, and ethereum address icon generation</p>
+                                        <p class="highlight">Outlined and spec&#x27;ed out a Go-api for client data consumption</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content work-content">
+                        <div class="row">
+                            <div class="content-cat big-text">
+                                <p>September 2016 till June 2017</p>
+                            </div>
+                            <div class="content-text work-listing education-listing">
+                                <p> <strong>Creator</strong>
+at <strong><a href="http://sublingual.io">Sublingual.io:</a></strong>
+
+                                </p>
+                                <p>(Side project) a tool for language learning, which generates custom subtitles
+                                    for someone learning a language, so that they can learn new vocabulary
+                                    in context, while watching a film in another language. Python/flask server,
+                                    with a celery job queue. (Currently inactive)</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content work-content">
+                        <div class="row">
+                            <div class="content-cat big-text">
+                                <p>July 2015 till September 2016</p>
+                            </div>
+                            <div class="content-text work-listing education-listing">
+                                <p> <strong>Senior Software Engineer</strong>
+at <strong><a href="http://stellaservice.com">StellaService, NYC, NY:</a></strong>
+
+                                </p>
+                                <p>As the first in-house Engineer on the new StellaConnect product, I guided
+                                    development of the product during the course of it&#x27;s transition from
+                                    a prototype to the company&#x27;s premier product offering, now used by
+                                    many of the biggest names in retail</p>
+                                <p class="highlight">Moved features into microservices to support traffic of thousands of customer
+                                    service agents and millions of customers</p>
+                                <p class="highlight">Containerized interconnected services using Docker to support consistent
+                                    local development, and Continuous Integration</p>
+                                <p class="highlight">Used analytics to identify, and track the resolution of latency bottlenecks</p>
+                                <p
+                                class="highlight">Served on the Employee Enrichment task force to enhance Employee Training
+                                    and quality of life</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content work-content">
+                        <div class="row">
+                            <div class="content-cat big-text">
+                                <p>February 2014 till June 2015</p>
+                            </div>
+                            <div class="content-text work-listing education-listing">
+                                <p> <strong>CTO</strong>
+at <strong><a href="https://jobsuitors.com">Jobsuitors, Brooklyn, NY:</a></strong>
+
+                                </p>
+                                <p>As the CTO of a three person startup, I drove development of a platform
+                                    consisting of a recommendation engine and a user-facing web app for job
+                                    seekers and company recruitors (Currently inactive)</p>
+                                <p class="highlight">Implemented a configurable matching engine to process queued matching
+                                    jobs</p>
+                                <p class="highlight">Migrated a rails-templated frontend to AngularJS with a rails api backend</p>
+                                <p
+                                class="highlight">Managed all deployment onto DigitalOcean with docker-swarm</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content work-content">
+                        <div class="row">
+                            <div class="content-cat big-text">
+                                <p>June 2013 till October 2014</p>
+                            </div>
+                            <div class="content-text work-listing education-listing">
+                                <p> <strong>Software Engineer</strong>
+at <strong><a href="http://originate.com">Originate Inc:</a></strong>
+
+                                </p>
+                                <p>As an engineer at Originate, a venture resources company, I helped build
+                                    solid backend frameworks for a series of partner-company projects</p>
+                                <p
+                                class="highlight"><a href="https://github.com/gtaschuk/ethercorp">Blockchain smart contracts</a> -
+                                    Used 20% time to build a series of smart contracts to emulate securities
+                                    and dividends in ethereum, a blockchain-based scripting language</p>
+                                    <p
+                                    class="highlight"><a href="https://www.replay.io">Replay.io</a> - Rails based analytics aggregator</p>
+                                        <p
+                                        class="highlight"><a href="https://updater.com">Updater</a> - Onsite with client, Facilitated
+                                            transition to grape (ruby), mongoDB, angular-js app that helps people with
+                                            the beaurocracy of moving (changing addresses etc)</p>
+                                            <p class="highlight"><a href="https://echo360.com">Echo360</a> - Built classroom lecture-capture
+                                                management software in Scala, and built an interface between the Scala
+                                                capture-management portal and the embedded linux devices placed in classrooms.</p>
+                                            <p
+                                            class="highlight">Versus - Rails api for skill-based betting on Windows games, added a payment
+                                                gateway.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content work-content">
+                        <div class="row">
+                            <div class="content-cat big-text">
+                                <p>October 2012 till June 2013</p>
+                            </div>
+                            <div class="content-text work-listing education-listing">
+                                <p> <strong>Software Engineer</strong>
+at <strong><a href="http://renthackr.com">RentHackr:</a></strong>
+
+                                </p>
+                                <p>As a student, I built the first iteration of a crowd-sourced rental listings
+                                    website on Rails</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content">
+                        <div class="row">
+                            <div class="content-cat big-text">Sempo
+                                <p>March 2020 till Current</p>
+                            </div>
+                            <div class="content-text work-listing">
+                                <p>Sempo is a platform that provides cash assistance to refugees through
+                                    blockchain enabled smart payment cards. When COVID-19 hit, donating my
+                                    time to a project that uses blockchain to enable relief payments was a
+                                    natural fit for my skills and values. I focused on hardening their existing
+                                    system by buildig out a comprehensive docker-compose setup, converting
+                                    existing Redux reducers to typescript and working on a robust testing framework
+                                    to enable them to deliver faster and more reliably to some of the world&#x27;s
+                                    most needy.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content">
+                        <div class="row">
+                            <div class="content-cat big-text">Education
+                                <p>2009 till 2013</p>
+                            </div>
+                            <div class="content-text work-listing education-listing">
+                                <p class="heading" style="margin-top:2.35em;">Swarthmore College</p>
+                                <p class="highlight">BA Computer Science, BS Engineering: <i> </i>
+
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content">
+                        <div class="row">
+                            <div class="content-cat big-text">Awards
+                                <p>EthDenver Bounty Recipient: SAML x Web3</p>
+                                <p style="margin-top:0.25em;">February 2020</p>
+                            </div>
+                            <div class="content-text work-listing"> <strong><p class="heading">ShapeShift</p></strong>
+
+                                <p class="highlight">My partner and I built a SAML provider to enable enterprise authentication
+                                    using web3 hardware wallets, as provisioned in an RBAC smart contract,
+                                    to unify authentication across smart contracts, and conventional SAML apps,
+                                    like Slack, gSuite and Atlassian. <a href="https://github.com/gtaschuk/saml-eth">https://github.com/gtaschuk/saml-eth</a>
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content">
+                        <div class="row">
+                            <div class="content-cat">Skills</div>
+                            <div class="content-text skills-listing">
+                                <p> <span class="name">
+                        <strong>
+                          Web Development
+                        </strong>
+                    </span>
+ <span>(Experienced):</span>
+React/Redux 15+,
+                                    Ruby 1.8-2.3, Rails 3-5, Python 2-3, Scala, Emberjs</p>
+                                <p> <span class="name">
+                        <strong>
+                          Blockchain Development
+                        </strong>
+                    </span>
+ <span>(Experienced):</span>
+Solidity 4-5, xDai,
+                                    Quorum and Ethereum chains, Truffle, Web3 v1+</p>
+                                <p> <span class="name">
+                        <strong>
+                          DevOps
+                        </strong>
+                    </span>
+ <span>(Proficient):</span>
+Continuous Integration
+                                    and Deployment, Docker Compose, Kubernetes, Heroku, Ansible</p>
+                                <p> <span class="name">
+                        <strong>
+                          Linux
+                        </strong>
+                    </span>
+ <span>(Proficient):</span>
+Daily user of linux
+                                    for &gt; 10 years, Shell scripting, Research in college for NSF funded
+                                    grant on sharing memory as an insertable kernel module</p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- LANGUAGE -->
+                    <section class="content">
+                        <div class="row">
+                            <div class="content-cat">Languages</div>
+                            <div class="content-text">
+                                <ul>
+                                    <li>English</li>
+                                    <li>Native speaker</li>
+                                </ul>
+                                <ul>
+                                    <li>Spanish</li>
+                                    <li>Some</li>
+                                </ul>
+                                <ul>
+                                    <li>German</li>
+                                    <li>Some</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- PROFILES -->
+                    <section class="content profiles">
+                        <div class="row">
+                            <div class="content-cat">Profiles</div>
+                            <div class="content-text profiles-listing">
+                                <ul>
+                                    <li> <a href="https://github.com/gtaschuk" target="_blank">
+                              Github
+                            </a>
+
+                                    </li>
+                                    <li> <a href="https://www.linkedin.com/in/greg-taschuk-23994254" target="_blank">
+                              LinkedIn
+                            </a>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content">
+                        <div class="row">
+                            <div class="content-cat">Interests</div>
+                            <div class="content-text skills-listing">
+                                <p> <span class="name">
+                          <strong>
+                            Language Learning
+                          </strong>
+                      </span>
+
+                                </p>
+                                <p> <span class="name">
+                          <strong>
+                            Biking
+                          </strong>
+                      </span>
+
+                                </p>
+                                <p> <span class="name">
+                          <strong>
+                            Homebrewing
+                          </strong>
+                      </span>
+
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </article>
+        </div>
+    </body>
+
+</html>
