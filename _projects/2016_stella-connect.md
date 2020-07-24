@@ -1,10 +1,10 @@
 ---
 layout: post
-title: SAML x Web3 
+title: StellaConnect
+external: https://stellaservice.com/stella-connect/
 ---
-
-<h3><a href="https://stellaservice.com/stella-connect/">StellaConnect</a></h3>
-I worked for StellaService on the Connect product - a tool to incentivize customer service agents and get feedback from customers on customer service agents
+I was the first in-house engineer on the Stella Connect product and scaled it from an MVP to a platform that touches millions of custemers per years (you have likely gotten one of the emails after contacting customer support).
+StellaConnect is a tool to incentivize customer service agents and get feedback from customers on customer service agents and got me interested in ways in which software can lead to behavioral change.
 <ul>
 <li>Rails 5 (ruby)</li>
 <li>Kubernetes</li>

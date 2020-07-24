@@ -5,7 +5,7 @@ permalink: /blog
 ---
 
 {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  <!--<h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>-->
   <ul class="post-list">
   {%- for post in site.posts -%}
     <li>
@@ -16,9 +16,11 @@ permalink: /blog
     {{ post.title | escape }}
     </a>
     </h3>
+    <div style="margin-left: 30px">
     {%- if site.show_excerpts -%}
     {{ post.excerpt }}
     {%- endif -%}
+    </div>
   </li>
   {%- endfor -%}
   </ul>

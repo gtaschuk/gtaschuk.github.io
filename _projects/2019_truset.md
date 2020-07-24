@@ -1,9 +1,10 @@
 ---
 layout: post
-title: truset
+title: Truset
+external: https://truset.com
+github: https://truset.github.io
 ---
-
-<h3><a href='http://truset.com'>TruSet.com</a> @ <a href='http://consensys.net'>Consensys</a></h3>
+<p>TruSet was a project that I helped start at the blockchain accelerator <a href='http://consensys.net'>Consensys</a></p>
 <img src="/assets/TruSet-regulator.png" width="200" height="*"/>
 <p>
 TruSet is a platform for publishing and validating data on the Ethereum blockchain by incentivizing community consensus.  Open sourced libraries are <a href='https://truset.github.io'>here</a> including a role based access control and a system for commit reveal voting

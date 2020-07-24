@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1>
-Hi
+Hi!
 </h1>
 <img src="/assets/taschuk-headshot.jpg" width="200" height="*" style="border-radius: 100px"/>
 <br>

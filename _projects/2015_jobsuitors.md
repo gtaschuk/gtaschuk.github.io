@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Jobsuitors
+external: https://jobsuitors.com
 ---
-
-<h3><a href="https://jobsuitors.com">Jobsuitors.com</a></h3>
 <p>
 I drove development of a job recommendation engine and a user-facing web app for job seekers and company recruitors
 </p>
