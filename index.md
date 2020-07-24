@@ -33,7 +33,7 @@ blockchain technology, collaborative systems and the future of finance
 </h2>
 <p>Analog Interests:</p>
 <h2 style="font-family: 'sans-serif'; margin-left: 30px">
-biking, homebrewing, traveling, books and fitness
+biking, homebrewing, traveling, books, fitness, and meditation
 </h2>
 <br>
 <br>
