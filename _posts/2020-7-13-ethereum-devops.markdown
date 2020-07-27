@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ethereum Devops"
+title:  "Ethereum DevOps"
 date:   2020-7-13 15:53:00 -0500
 ---
 
@@ -209,11 +209,11 @@ It's best to create a metamask installation for the exclusive purpose of develop
 
 A few open-source projects I have set up with this pattern:
 
-https://github.com/gtaschuk/ERC809
-https://github.com/gtaschuk/saml-eth
-https://github.com/TruSet/bitmask-rbac
-https://github.com/teamsempo/SempoBlockchain
+[https://github.com/gtaschuk/ERC809](https://github.com/gtaschuk/ERC809)
+[https://github.com/gtaschuk/saml-eth](https://github.com/gtaschuk/saml-eth)
+[https://github.com/TruSet/bitmask-rbac](https://github.com/TruSet/bitmask-rbac)
+[https://github.com/teamsempo/SempoBlockchain](https://github.com/teamsempo/SempoBlockchain)
 
 ## Shameless Plug
 
-If this all sounds a tad confusing or you want to save time, I'm happy to set it up for you as a freelancer - just contact me!
+I'm available for freelance work and can quickly get you running - I've done it many times before
