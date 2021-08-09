@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What I learned cracking open my Genze Ebike"
-date:   2017-12-23 15:53:00 -0500
+date:   2020-5-31 15:53:00 -0500
 ---
 
 I have never owned a car and when COVID hit, I bought a used ebike as an alternative to public transit.  Electric bikes have exploded in popularity in recent years as batteries have gotten cheaper giving people like me a way to get around on 2 wheels in an environmentally friendly way without peadaling up hills.
